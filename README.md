@@ -1,1 +1,1 @@
-scss-sandbox
+sass-sandbox
