@@ -58,6 +58,7 @@ header {
 
     &:hover {
       @include transform(rotate(15deg));
+      background-color: darken($light-color, 15%);
     }
   }
 
@@ -67,7 +68,8 @@ header {
     color: set-text-color($dark-color);
 
     &:hover {
-      @include transform(rotate(15deg));
+      @include transform(rotate(-15deg));
+      background-color: lighten($dark-color, 10%);
     }
   }
 }
