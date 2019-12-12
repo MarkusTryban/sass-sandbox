@@ -25,3 +25,8 @@ header {
   .section-b {
     background: skyblue;
     color: #fff; }
+
+a {
+  color: #333; }
+  a:hover {
+    color: coral; }
